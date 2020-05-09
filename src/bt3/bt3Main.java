@@ -18,16 +18,16 @@ public class bt3Main {
         ShapeFactory shapeFac = new ShapeFactory();
         
         /**
-         * Demo hình vuông
+         * Demo Rectangle
          */
-        Rectangle v1 = (Rectangle) shapeFac.createShape(ShapeType.rectangle);
+        Shape v1 = shapeFac.createShape(ShapeType.rectangle);
         v1.setBrush("bút lông");
         v1.setPaper("giấy mềm");
         v1.setFrame("Khung gỗ");
         
         System.out.println(v1.draw());
         
-        Rectangle v2 = (Rectangle) shapeFac.createShape(ShapeType.rectangle);
+        Shape v2 = shapeFac.createShape(ShapeType.rectangle);
         v2.setBrush("bút chì");
         v2.setPaper("giấy cứng");
         v2.setFrame("Khung nhựa");
@@ -36,16 +36,16 @@ public class bt3Main {
         System.out.println(v2.draw());
         
         /**
-         * Demo hình tam giác
+         * Demo Triangle
          */
-        Triangle t1 = (Triangle) shapeFac.createShape(ShapeType.triangle);
+        Shape t1 = shapeFac.createShape(ShapeType.triangle);
         t1.setBrush("bút lông");
         t1.setPaper("giấy mềm");
         t1.setFrame("Khung gỗ");
         
         System.out.println(t1.draw());
         
-        Triangle t2 = (Triangle) shapeFac.createShape(ShapeType.triangle);
+        Shape t2 = shapeFac.createShape(ShapeType.triangle);
         t2.setBrush("bút chì");
         t2.setPaper("giấy cứng");
         t2.setFrame("Khung nhựa");
@@ -54,16 +54,16 @@ public class bt3Main {
         System.out.println(t2.draw());
         
         /**
-         * Demo hình tròn
+         * Demo Circle
          */
-        Circle c1 = (Circle) shapeFac.createShape(ShapeType.circle);
+        Shape c1 = shapeFac.createShape(ShapeType.circle);
         c1.setBrush("bút lông");
         c1.setPaper("giấy mềm");
         c1.setFrame("Khung gỗ");
         
         System.out.println(c1.draw());
         
-        Circle c2 = (Circle) shapeFac.createShape(ShapeType.circle);
+        Shape c2 = shapeFac.createShape(ShapeType.circle);
         c2.setBrush("bút chì");
         c2.setPaper("giấy cứng");
         c2.setFrame("Khung nhựa");
