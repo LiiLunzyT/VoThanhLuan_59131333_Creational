@@ -22,8 +22,13 @@ public class HoaDon {
     
     @Override
     public String toString() {
-        return dsCTHD.stream().map((cthd) -> cthd.toString() + "\n")
-                .reduce(header.toString() + "\n", String::concat);
+        String str = "";
+        str += header.toString();
+        str += "Thông tin hoá đơn: \n";
+        for(ChiTietHoaDon cthd : dsCTHD) {
+            str += cthd.toString() + "\n";
+        }
+        return str;
     }
     
     public static class HDBuilder {

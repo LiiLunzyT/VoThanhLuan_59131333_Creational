@@ -13,7 +13,7 @@ public class MyStringBuilder {
     String str;
 
     public MyStringBuilder() {
-        String str = "";
+        str = "";
     }
     
     public MyStringBuilder addString(String s) {
