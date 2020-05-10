@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vothanhluan_59131333_creationalpattern;
+package vothanhluan_59131333_creational;
 
 /**
  *
